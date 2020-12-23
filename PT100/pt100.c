@@ -30,7 +30,7 @@ float Pt100_TtoR(float t)
         r = 100 * (1 + A*t + B*t*t);
     }
     else
-        r = 375.7;
+        r = 390.481;
     
     return r;
 }
